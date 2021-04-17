@@ -1,0 +1,27 @@
+Last login: Fri Apr 16 11:12:15 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro:~ justiniorii$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+==> Checking for `sudo` access (which may request your password).
+Password:
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+
+Press RETURN to continue or any other key to abort
+MacBook-Pro:~ justiniorii$ rew install git
+-bash: rew: command not found
+MacBook-Pro:~ justiniorii$   git --version
+git version 2.24.3 (Apple Git-128)
+MacBook-Pro:~ justiniorii$ git config --global user.name "Justin Iorii"
+MacBook-Pro:~ justiniorii$ git config --global user.email justinskidney@gmail.com
+MacBook-Pro:~ justiniorii$ git config --global --list
+user.name=Justin Iorii
+user.email=justinskidney@gmail.com
+MacBook-Pro:~ justiniorii$ 

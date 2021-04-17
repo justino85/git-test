@@ -1,0 +1,162 @@
+Last login: Sun Mar 28 15:01:02 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro:~ justiniorii$ 
+MacBook-Pro:~ justiniorii$ The default interactive shell is now zsh.
+-bash: The: command not found
+MacBook-Pro:~ justiniorii$ To update your account to use zsh, please run `chsh -s /bin/zsh`.
+Changing shell for justiniorii.
+Password for justiniorii: 
+git reset HEAD index.html
+    git checkout -- index.html
+    git add .
+    git commit -m "Third commit"
+    git log --oneline
+    git checkout <second commit's number> index.html
+        git reset HEAD index.html
+        git checkout -- index.html
+        git remote add origin <replace this with your remote repository URL>
+            git pusOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+MacBook-Pro:classthing justiniorii$ git add .
+git status
+git commit -m "first commit"
+git status
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>This is a Header</h1>
+        <p>This is a paragraph</p>
+    </body>
+</html>
+git add .
+git commit -m "Second commit"
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>This is a Header</h1>
+        <p>This is a paragraph.</p>
+   chsh: Credentials could not be verified, username or password is invalid.  Credentials could not be verified, username or password is invalid.
+-bash: To: command not found
+MacBook-Pro:~ justiniorii$ git reset HEAD index.html
+    git checkout -- index.html
+    git add .
+    git commit -m "Third commit"
+    git log --oneline
+    git checkout <second commit's number> index.html
+        git reset HEAD index.html
+        git checkout -- index.html
+        git remote add origin <replace this with your remote repository URL>
+            git pusOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+MacBook-Pro:classthing justiniorii$ git add .
+git status
+git commit -m "first commit"
+git status
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>This is a Header</h1>
+        <p>This is a paragraph</p>
+    </body>
+</html>
+git add .
+git commit -m "Second commit"
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>This is a Header</h1>
+        <p>This is a paragraph.</p>
+        <p>This is another parfatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+MacBook-Pro:~ justiniorii$     git checkout -- index.html
+error: pathspec 'index.html' did not match any file(s) known to git
+MacBook-Pro:~ justiniorii$     git add .
+warning: could not open directory 'Pictures/Photos Library.photoslibrary/': Operation not permitted
+    git commit -m "Third commit"
+    git log --oneline
+    git checkout <second commit's number> index.html
+        git reset HEAD index.html
+        git checkout -- index.html
+        git remote add origin <replace this with your remote repository URL>
+            git pusOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+MacBook-Pro:classthing justiniorii$ git add .
+git status
+git commit -m "first commit"
+git status
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>This is a Header</h1>
+        <p>This is a paragraph</p>
+    </body>
+</html>
+git add .
+git commit -m "Second commit"
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>This is a Header</h1>
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+    </body>
+</html>
+git add .
+gwarning: could not open directory 'Library/Application Support/MobileSync/': Operation not permitted
+warning: could not open directory 'Library/Application Support/CallHistoryTransactions/': Operation not permitted
+warning: could not open directory 'Library/Application Support/CloudDocs/session/db/': Operation not permitted
+warning: could not open directory 'Library/Application Support/com.apple.sharedfilelist/': Operation not permitted
+warning: could not open directory 'Library/Application Support/Knowledge/': Operation not permitted
+warning: could not open directory 'Library/Application Support/com.apple.TCC/': Operation not permitted
+warning: could not open directory 'Library/Application Support/FileProvider/': Operation not permitted
+warning: could not open directory 'Library/Application Support/com.apple.avfoundation/Frecents/': Operation not permitted
+warning: could not open directory 'Library/Application Support/CallHistoryDB/': Operation not permitted
+warning: could not open directory 'Library/IdentityServices/': Operation not permitted
+warning: could not open directory 'Library/Messages/': Operation not permitted
+warning: could not open directory 'Library/HomeKit/': Operation not permitted
+warning: could not open directory 'Library/Sharing/': Operation not permitted
+warning: could not open directory 'Library/Mail/': Operation not permitted
+warning: could not open directory 'Library/Accounts/': Operation not permitted
+warning: could not open directory 'Library/Safari/': Operation not permitted
+warning: could not open directory 'Library/Suggestions/': Operation not permitted
+warning: could not open directory 'Library/Containers/com.apple.VoiceMemos/': Operation not permitted
+warning: could not open directory 'Library/Containers/com.apple.archiveutility/': Operation not permitted
+warning: could not open directory 'Library/Containers/com.apple.Home/': Operation not permitted
+warning: could not open directory 'Library/Containers/com.apple.Safari/': Operation not permitted
+warning: could not open directory 'Library/Containers/com.apple.iChat/': Operation not permitted
+warning: could not open directory 'Library/Containers/com.apple.CloudDocs.MobileDocumentsFileProvider/': Operation not permitted
+warning: could not open directory 'Library/Containers/com.apple.mail/': Operation not permitted
+warning: could not open directory 'Library/Containers/com.apple.Notes/': Operation not permitted
+warning: could not open directory 'Library/Containers/com.apple.news/': Operation not permitted
+warning: could not open directory 'Library/Containers/com.apple.stocks/': Operation not permitted
+warning: could not open directory 'Library/PersonalizationPortrait/': Operation not permitted
+warning: could not open directory 'Library/Metadata/CoreSpotlight/': Operation not permitted
+warning: could not open directory 'Library/Metadata/com.apple.IntelligentSuggestions/': Operation not permitted
+warning: could not open directory 'Library/Cookies/': Operation not permitted
+warning: could not open directory 'Library/Caches/com.apple.HomeKit/': Operation not permitted
+warning: could not open directory 'Library/Caches/com.apple.safaridavclient/': Operation not permitted
+warning: could not open directory 'Library/Caches/com.apple.HomeKit.configurations/': Operation not permitted
+warning: could not open directory 'Library/Caches/CloudKit/': Operation not permitted
+warning: could not open directory 'Library/Caches/com.apple.Safari/': Operation not permitted
+warning: could not open directory 'Library/Caches/com.apple.ap.adprivacyd/': Operation not permitted
+warning: could not open directory '.Trash/': Operation not permitted
+
