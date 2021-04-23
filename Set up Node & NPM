@@ -1,0 +1,100 @@
+Last login: Sat Apr 17 19:14:24 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro:git-test justiniorii$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (git-test) 
+version: (1.0.0) 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/justiniorii/Desktop/NucampFolder/git-test/package.json:
+
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "Git and NPM",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) 
+MacBook-Pro:git-test justiniorii$ ls
+Local Git Repository & GB	index.html
+git set & bash			package.json
+MacBook-Pro:git-test justiniorii$ code .
+MacBook-Pro:git-test justiniorii$ npm install lite-server --save-dev
+npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN git-test@1.0.0 No repository field.
+
++ lite-server@2.6.1
+added 195 packages from 256 contributors and audited 195 packages in 8.544s
+
+6 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+MacBook-Pro:git-test justiniorii$ npm start
+
+> git-test@1.0.0 start /Users/justiniorii/Desktop/NucampFolder/git-test
+> npm run lite
+
+
+> git-test@1.0.0 lite /Users/justiniorii/Desktop/NucampFolder/git-test
+> lite-server
+
+Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+** browser-sync config **
+{
+  injectChanges: false,
+  files: [ './**/*.{html,htm,css,js}' ],
+  watchOptions: { ignored: 'node_modules' },
+  server: {
+    baseDir: './',
+    middleware: [ [Function (anonymous)], [Function (anonymous)] ]
+  }
+}
+[Browsersync] Access URLs:
+ ------------------------------------
+       Local: http://localhost:3000
+    External: http://10.10.61.96:3000
+ ------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ ------------------------------------
+[Browsersync] Serving files from: ./
+[Browsersync] Watching files...
+21.04.17 19:25:31 200 GET /index.html
+21.04.17 19:25:32 404 GET /favicon.ico
+[Browsersync] Reloading Browsers...
+21.04.17 19:26:28 200 GET /index.html
+[Browsersync] Reloading Browsers...
+21.04.17 19:26:30 200 GET /index.html
+[Browsersync] Reloading Browsers...
+21.04.17 19:26:33 200 GET /index.html
+[Browsersync] Reloading Browsers...
+21.04.17 19:26:47 200 GET /index.html
+[Browsersync] Reloading Browsers... (buffered 2 events)
+21.04.17 19:26:49 200 GET /index.html
+[Browsersync] Reloading Browsers...
+21.04.17 19:26:54 200 GET /index.html
+

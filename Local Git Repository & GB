@@ -1,0 +1,65 @@
+Last login: Sat Apr 17 18:38:00 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro:git-test justiniorii$ git init
+Reinitialized existing Git repository in /Users/justiniorii/Desktop/NucampFolder/git-test/.git/
+MacBook-Pro:git-test justiniorii$ ls
+index.html
+MacBook-Pro:git-test justiniorii$ ls -a
+.		..		.DS_Store	.git		index.html
+MacBook-Pro:git-test justiniorii$ cd .git
+MacBook-Pro:.git justiniorii$ ls
+COMMIT_EDITMSG	config		hooks		info		objects
+HEAD		description	index		logs		refs
+MacBook-Pro:.git justiniorii$ cd ..
+MacBook-Pro:git-test justiniorii$ git status
+On branch master
+nothing to commit, working tree clean
+MacBook-Pro:git-test justiniorii$ code .
+MacBook-Pro:git-test justiniorii$ git status
+On branch master
+nothing to commit, working tree clean
+MacBook-Pro:git-test justiniorii$ git add .
+MacBook-Pro:git-test justiniorii$ git status
+On branch master
+nothing to commit, working tree clean
+MacBook-Pro:git-test justiniorii$ git commit -m "First commit"
+On branch master
+nothing to commit, working tree clean
+MacBook-Pro:git-test justiniorii$ gut status
+-bash: gut: command not found
+MacBook-Pro:git-test justiniorii$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+MacBook-Pro:git-test justiniorii$ git commit -m "Second commit"
+On branch master
+nothing to commit, working tree clean
+MacBook-Pro:git-test justiniorii$ git ad
+git: 'ad' is not a git command. See 'git --help'.
+
+The most similar commands are
+	add
+	am
+MacBook-Pro:git-test justiniorii$ git add .
+MacBook-Pro:git-test justiniorii$ git commit -m "Third commit"
+On branch master
+nothing to commit, working tree clean
+MacBook-Pro:git-test justiniorii$ git log --oneline
+c9658c7 (HEAD -> master) Third commit
+c941d6c First commit
+0e09b30 Third commit
+22b5845 Third Commit
+b171e38 First commit
+911c00a My First Bootstrap Project
+c6c145c Firstcommit
+706c184 First commit
+5a805ef First commit
+MacBook-Pro:git-test justiniorii$ git reset HEAD index.html
+Unstaged changes after reset:
+M	index.html
+MacBook-Pro:git-test justiniorii$ git checkout -- index.html
+MacBook-Pro:git-test justiniorii$ 

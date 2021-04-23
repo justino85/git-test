@@ -1,0 +1,25 @@
+Last login: Sat Apr 17 19:01:39 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro:git-test justiniorii$ echo$0
+-bash: echo-bash: command not found
+MacBook-Pro:git-test justiniorii$ touch ~/.bash_profile
+MacBook-Pro:git-test justiniorii$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 13527  100 13527    0     0  44940      0 --:--:-- --:--:-- --:--:-- 44940
+=> Downloading nvm from git to '/Users/justiniorii/.nvm'
+=> Cloning into '/Users/justiniorii/.nvm'...
+fatal: unable to access 'https://github.com/nvm-sh/nvm.git/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443 
+Failed to clone nvm repo. Please report this!
+MacBook-Pro:git-test justiniorii$ nvm install 14.9.0
+-bash: nvm: command not found
+MacBook-Pro:git-test justiniorii$ nvm use 14.9.0
+-bash: nvm: command not found
+MacBook-Pro:git-test justiniorii$ node -v
+v14.16.0
+MacBook-Pro:git-test justiniorii$ npm -v
+6.14.11
+MacBook-Pro:git-test justiniorii$ 
