@@ -1,0 +1,66 @@
+Last login: Tue Apr 27 13:45:47 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro:git-test justiniorii$ git remote add origin https://github.com/justino85/git-test.git
+fatal: remote origin already exists.
+MacBook-Pro:git-test justiniorii$ git push -u origin master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+MacBook-Pro:git-test justiniorii$ cd ..
+MacBook-Pro:NucampFolder justiniorii$ mkdir git-test 2
+mkdir: git-test: File exists
+MacBook-Pro:NucampFolder justiniorii$ git status
+warning: could not open directory '.Trash/': Operation not permitted
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../../.CFUserTextEncoding
+	../../.DS_Store
+	../../.Terminal.plist
+	../../.bash_history
+	../../.bash_profile
+	../../.bash_sessions/
+	../../.config/
+	../../.cups/
+	../../.dropbox/
+	../../.gitconfig
+	../../.node_repl_history
+	../../.npm/
+	../../.viminfo
+	../../.vscode/
+	../../Applications/
+	../
+	../../Documents/
+	../../Downloads/
+	../../Justinskidnehy Dropbox/
+	../../Library/
+	../../Movies/
+	../../Music/
+	../../Pictures/
+	../../Public/
+	../../Sites/
+	../../classthing/
+	../../node_modules/
+	../../package-lock.json
+	../../test/
+
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Pro:NucampFolder justiniorii$ git clone https://github.com/justino85/git-test.git
+fatal: destination path 'git-test' already exists and is not an empty directory.
+MacBook-Pro:NucampFolder justiniorii$ ls
+1-HTML-CSS-JavaScript			5-NodeJS-Express-MongoDB
+2					BootStrap Project_files
+2-Bootstrap				Git 2.15.0 Mavericks Intel Universal
+3-React					git-test
+4-React-Native
+MacBook-Pro:NucampFolder justiniorii$ cd git-test
+MacBook-Pro:git-test justiniorii$ ls
+HELLO WORLD.html		Using NPM:NVM
+Local Git Repository & GB	git set & bash
+Set up Node & NPM		node_modules
+MacBook-Pro:git-test justiniorii$ 
